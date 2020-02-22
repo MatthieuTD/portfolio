@@ -1,0 +1,460 @@
+@import url("reset.css");
+@import url("nav.css");
+@import url("footer.css");
+
+/* Partie bannière */
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.ban {
+    background-image: url("../img/ban.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.bar {
+    background-color: #A40234;
+    height: 4px;
+    width: 80px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: auto;
+    color: white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.button-propo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    background-color: #A40234;
+    border-radius: 32px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+/* Partie A propos */
+
+.propo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    background-color: #AEAFA7;
+}
+
+.title-propo {
+    font-size: 26px;
+    color: white;
+}
+
+bold {
+    font-weight: bold;
+}
+
+.bar-bl {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #A40234;
+    height: 4px;
+    width: 80px;
+}
+
+.button-propo-bl {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 170px;
+    background-color: #A40234;
+    border-radius: 32px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.center1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-prez {
+    color: white;
+    font-size: 20px;
+}
+
+
+/* CV  */
+
+section {
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenu {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.bar-mid {
+    width: 6px;
+    height: 100vh;
+    background-color: #A40234;
+}
+
+.edu {
+    margin-bottom: 50px;
+    height: 150px;
+    width: 550px;
+    background-color: #F2F2F2;
+    box-shadow: 0px 7px 37px 1px grey;
+    color: #221E1F;
+    font-size: 1em;
+}
+
+.title-educ {
+    margin-bottom: 60px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    background-color: #AEAFA7;
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
+}
+
+.formation {
+    height: 50px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #A40234;
+    color: #F2F2F2;
+}
+
+.nom-forma {
+    color: #A40234;
+    margin-top: 15px;
+}
+
+.contenu-forma {
+    margin-top: 10px;
+    margin-left: 15px;
+    align-items: flex-start;
+    color: #221E1F;
+}
+
+
+/* MES SKILL */
+.titlesk{
+    font-size: 2em;
+    margin-top: 100px;
+    width: 100%;
+    background-color: #F2F2F2;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill {
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barcentre {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.barre {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 40px;
+    width: 400px;
+    background-color: #221E1F;
+    display: flex;
+    align-items: center;
+    color: #F2F2F2;
+}
+
+.rempli {
+    height: 30px;
+    background-color: #A40234;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+
+.bar-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    color: #F2F2F2;
+}
+
+
+/* PORTFOLIO*/
+.titlepor{
+    font-size: 2em;
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 80%;
+   margin-bottom: 30px;
+}
+
+.banpj {
+  height: 250px;
+  width: 550px;
+  background-size: cover;
+}
+.pj:hover{
+    opacity: 0.5;
+}
+
+
+.text-port {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #A40234;
+    font-size: 20px;
+    opacity: 1;
+    width: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTACT*/
+.form{
+    background-color: #F2F2F2;
+    border-radius: 32px;
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imput{
+    width: 400px;
+    height: 30px;
+    border-radius: 32px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* media queries */
+
+
+@media (min-width:481px) and (max-width:767px) {
+    .bar-mid {
+        display: none;
+    }
+    .name {
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .bar-mid {
+        display: none;
+    }
+    .name {
+        display: none;
+    }
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+::-webkit-input-placeholder{color: #777;}
+:-moz-placeholder { /* Firefox 18- */ color: #777;}
+::-moz-placeholder {  /* Firefox 19+ */ color: #777;}
+:-ms-input-placeholder {color: #777;}
+.formulaire{
+    background-color: #F2F2F2;
+    width: 100%;
+}
+.container{
+  position: relative;
+  width: 100%;
+	padding: 1em;
+    margin: auto;
+    
+}
+
+.container h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: #A40234;
+}
+
+#contact input[type="text"],#contact input[type="email"], #contact textarea{
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	width: 100%;
+	font-size: 18px;
+	color: #777;
+  border: 1px solid #ccc;
+}
+
+#contact textarea{
+	font-size: 16px;
+}
+
+#contact input:hover, #contact textarea:hover{
+	border: 1px solid #888;
+}
+#contact input:focus, #contact textarea:focus{
+	border: 1px solid #777;
+}
+
+
+#contact textarea{
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 180px;
+	min-height: 180px;
+  resize: none;
+}
+
+#contact .send-button{
+	text-align: center;
+}
+
+#contact .send-button button[type="submit"]{
+	color: #fff;
+  background: #A40234;
+  border: none;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	transition: .5s all ease;
+  cursor: pointer;
+}
+
+#contact .send-button button[type="submit"]:hover{
+	background: #A40234;
+}
+
+#contact .send-button button[type="submit"]:focus{
+	position: relative;
+	top: 2px;
+}
+
+/*######################################\*
+              Responsive
+\*######################################*/
+
+@media screen and (min-width: 640px){
+	.container{
+		width: 600px;
+	}
+  
+  #contact textarea{
+    max-width: 98%;
+    min-width: 98%;
+    min-height: 152px;
+    margin-right: 0;
+  }
+
+	#contact .right,#contact .left{
+		display: block;
+	}
+
+	#contact .right{
+		float: right;
+		width: 50%;
+	}
+  
+	#contact .left{
+		float: left;
+		width: 50%;
+	}
+	.cl{
+    clear: both;
+  }
+}

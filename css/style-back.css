@@ -1,0 +1,26 @@
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formu {
+    margin-top: 50px;
+}
+
+.form-input {
+    height: 100px;
+    width: 400px;
+}
+
+.form-in {
+    width: 300px;
+}
+table{
+    width: 100%;
+}
+
+.titre{
+    font-weight: bold;
+    font-size: 2em;
+}
